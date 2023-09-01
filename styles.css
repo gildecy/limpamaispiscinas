@@ -1,0 +1,179 @@
+/* Reset CSS básico */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #004080;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilos do banner */
+.banner img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos da galeria de produtos */
+.product-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(88, 133, 230, 0.932);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h2 {
+    font-size: 24px;
+    margin: 60px 0;
+}
+
+.product p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 20px;
+    color: #080808;
+    font-weight: bold;
+}
+
+.buy-button {
+    display: inline-block;
+    background-color: #38f038;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #769b10;
+}
+
+/* Estilos do rodapé */
+footer {
+    text-align: center;
+    background-color: #2678d4;
+    color: #fff;
+    padding: 80px;
+}
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+
+/* Estilos do carrossel */
+.image-carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slide {
+    display: none;
+}
+
+.carousel-slide img {
+
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos dos botões de navegação (opcional) */
+.carousel-controls {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.carousel-controls button {
+    background-color: #004080;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Adicione outros estilos conforme necessário */
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos do banner */
+.banner {
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 1s ease; /* Adiciona uma transição suave de 1 segundo */
+}
+
+.slider img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos das imagens do slider */
+.slider img {
+    width: 100%;
+    height: auto;
+}
+
+
